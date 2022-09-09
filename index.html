@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Número Romano</title>
+    <link rel="shortcut icon" href="xxi.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="display.js" defer></script>
+</head>
+
+<body>
+    <div class="fundo">
+        <div class="texto">
+            <label for="valor">Coloque abaixo um número de 1 até 3999:</label>
+        </div>
+
+        <!--Classe/campo responsavel onde o usuario ira digitar o numero-->
+        <div class="input">
+            <input type="tel" id="valor" maxlength="4" placeholder="Coloque aqui:" value="1">
+        </div>
+
+        <!--Classe responsavel por enviar o numero digitado ao JS e retornar o resultado-->
+        <div class="submit">
+            <input type="submit" value="Enviar" id="enviar">
+        </div>
+
+        <div style="font-size: 28px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+            <label>Resultado:</label>
+        </div>
+
+        <!--Classe que volta o resultado-->
+        <div class="output">
+            <input type="text" readonly id="resultado">
+        </div>
+    </div>
+</body>
+</html>
